@@ -1,0 +1,61 @@
+#products
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:20px;
+    padding: 10px;
+}
+.TextDiv
+{
+   
+    font-size: 30px;
+  color: #d70969;
+}
+.ImageDiv
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.proImg
+{
+    border:1px solid black;
+    border-radius: 10px;
+    height: 350px;
+    width: 350px;
+
+}
+.AllImagesDiv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px
+}
+.AllImagesDiv img
+{
+    width: 100px;
+    height: 100px;
+}
+.proButton
+{
+ 
+    height: 38px;
+    width: 120px;
+    font-size: 18px;
+    color: #d70969;
+    background-color: transparent;
+    border: none;
+    margin-top: 5px;
+}
+
+.proButton:hover
+{
+color: #d70969;
+    background-color: aquamarine;
+    border: 1px solid aquamarine;
+    border-radius: 6px;   
+}
