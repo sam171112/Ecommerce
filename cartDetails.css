@@ -1,0 +1,81 @@
+#details
+{
+    display: grid;
+    justify-content: center;
+    align-items: center;grid-template-columns: repeat(4,auto);
+    gap: 20px;
+   
+}
+#CheckoutDiv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(238, 209, 198);
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(238, 209, 198);
+    width: 200px;
+    height: 200px;
+    margin-left: 40%;
+    margin-top: 40px;
+    gap: 10px;
+    color: #d70969;
+    font-size: 30px;
+}
+
+.cart-item
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;
+    border: 1px solid rgb(238, 209, 198);
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(238, 209, 198);
+    width: 300px;
+    height: 300px;
+    margin-top: 40px;
+    gap: 10px;
+}
+#checkout
+{
+    height: 50px;
+    width: 120px;
+    font-size: 18px;
+    color: #d70969;
+    background-color: transparent;
+    border: none;
+    margin-top: 5px;
+}
+#checkout:hover
+{ 
+    color: #d70969;
+    background-color: aquamarine;
+    border: 1px solid aquamarine;
+    border-radius: 6px;   
+
+}
+
+.deletebtn
+{
+    height: 50px;
+    width: 80px;
+    color: #d70969;
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+}
+.priceCart
+{
+    color: #d70969;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.Headings
+{
+    color: #d70969;
+    font-size: 30px;
+    font-weight: 700;
+}

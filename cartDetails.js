@@ -8,11 +8,14 @@ function displayData ()
 	const div = document.createElement("div")
 	div.classList.add("cart-item")
 	const title = document.createElement("h2")
+    title.classList.add('Headings')
 	title.textContent = pro.title
 	const price = document.createElement("p")
+    price.classList.add('priceCart')
 	price.textContent = "$" + pro.price
 	const dlte = document.createElement("button")
 	dlte.textContent = "❎"
+    dlte.classList.add('deletebtn')
 	dlte.setAttribute("data-pro", JSON.stringify(index))
 	dlte.addEventListener("click", deleteItem)
 	div.append(title, price, dlte)
